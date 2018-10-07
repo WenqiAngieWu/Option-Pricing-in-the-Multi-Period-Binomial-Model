@@ -3,7 +3,7 @@ Build a multi-period binomial model whose parameters are calibrated to a Black-S
 
 Functions:
 - European Stock Option pricing
-- American Stock Option pricing & earliest time to exercise (it only matters for put option, since it's never optimal to early exercise call option to   )
+- American Stock Option pricing & earliest time to exercise (it only matters for put option, since it's never optimal to early exercise call option)
 - European Futures Option pricing
 - American Futures Option pricing & earliest time to exercise
 - Judge if put-call parity holds
