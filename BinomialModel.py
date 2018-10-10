@@ -3,7 +3,7 @@
 
 @author: WenqiAngieWu
 
-Variable Description:
+@para:
 
 T: maturity
 n: # option periods
@@ -175,12 +175,7 @@ def FuturesOptionEU(T,n,N,S,r,c,sigma,K,cp):
     return optionTree[0,0]
 
 # =============================================================================
-    
-def JudgePutCallParity(price_put,price_call,S,c,T,K,r):
-    """Judge if put-callparity holds"""        
-    dev = price_put + S*exp(-c*T) - price_call - K*exp(-r*T)
-    if not dev: return True
-    else: return False
+
 
 
     
