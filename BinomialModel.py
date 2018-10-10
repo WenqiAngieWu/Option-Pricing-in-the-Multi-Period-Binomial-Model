@@ -9,7 +9,7 @@ T: maturity
 n: # option periods
 N: # futures period
 S: initial stock price
-r: continuously-compunded interest rate
+r: continuously-compounded interest rate
 c: dividend yield
 sigma: annualized volatility 
 K: strike price
