@@ -7,7 +7,8 @@
 
 T: maturity
 n: # option periods
-N: # futures period
+N: # futures periods
+
 S: initial stock price
 r: continuously-compounded interest rate
 c: dividend yield
@@ -16,7 +17,7 @@ K: strike price
 cp: +1/-1 with regards to call/put
 """
 
-
+from __future__ import division
 from math import exp, sqrt
 import numpy as np
 
