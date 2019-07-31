@@ -7,3 +7,4 @@ Functions:
 - European single-stock futures option pricing
 - American single-stock futures option pricing & earliest time to exercise
 
+A line I wrote on my local computer
